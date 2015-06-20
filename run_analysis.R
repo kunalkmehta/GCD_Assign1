@@ -83,4 +83,6 @@ run_analysis<-function(){
   ########### Writing Tidy Data Set ##########   
   write.table(mergedata, "tidydataset.txt", row.names=FALSE)
   ######### End Writing Tidy Data Set ########   
+  
+  ######## End Program run_analysis.R ########   
 }
