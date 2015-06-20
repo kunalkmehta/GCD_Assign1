@@ -81,6 +81,6 @@ run_analysis<-function(){
   ######## End Merging Activity Labels #######
 
   ########### Writing Tidy Data Set ##########   
-  write.csv(mergedata, "tidydataset.txt", row.names=FALSE)
+  write.table(mergedata, "tidydataset.txt", row.names=FALSE)
   ######### End Writing Tidy Data Set ########   
 }
